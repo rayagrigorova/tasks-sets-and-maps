@@ -27,6 +27,7 @@ public class CountryCapital_2 {
 		int listSize = countryCapitalList.size();
 		int points = 0;
 		while(true) {
+			capitalCountry.clear();
 			for(int i = 0; i < 5; i++) {
 				Random r = new Random();
 				int randomInd = r.nextInt(listSize);
